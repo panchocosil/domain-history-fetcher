@@ -38,19 +38,19 @@ Este script en **Bash** está diseñado para automatizar la consulta de historia
 2. **Ejecutar el script:**
    - Asegúrate de que el script tenga permisos de ejecución:
      ```bash
-     chmod +x script.sh
+     chmod +x history-fetcher.sh
      ```
 
    - Ejecuta el script con los siguientes argumentos:
      ```bash
-     ./script.sh <archivo_de_dominios> <carpeta_de_salida>
+     ./history-fetcher.sh <archivo_de_dominios> <carpeta_de_salida>
      ```
      - `<archivo_de_dominios>`: Ruta al archivo que contiene los dominios.
      - `<carpeta_de_salida>`: Nombre de la carpeta donde se guardarán los resultados.
 
    Ejemplo:
    ```bash
-   ./script.sh dominios.txt resultados
+   ./history-fetcher.sh dominios.txt resultados
    ```
 
 3. **Ver los resultados:**
